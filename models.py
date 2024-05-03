@@ -93,7 +93,8 @@ class Checkout:
         user (User): The user who checked out the book.
         book (Book): The book that was checked out.
         checkout_date (datetime.datetime): The date and time when the book was checked out.
-        checkin_date (datetime.datetime | None): The date and time when the book was checked in, or None if the book has not been checked in yet.
+        checkin_date (datetime.datetime | None): The date and time when the book was checked in, 
+        or None if the book has not been checked in yet.
 
     Methods:
         __init__(self, user, book): Initializes a new Checkout object with the given user and book.
@@ -113,9 +114,10 @@ class Checkout:
             self.user (User): The user who checked out the book.
             self.book (Book): The book that was checked out.
             self.checkout_date (datetime.datetime): The date and time when the book was checked out.
-            self.checkin_date (datetime.datetime | None): The date and time when the book was checked in, or None if the book has not been checked in yet.
+            self.checkin_date (datetime.datetime | None): The date and time when the book was checked in, 
+            or None if the book has not been checked in yet.
         """
-        
+
         self.user = user
         self.book = book
         self.checkout_date = datetime.datetime.now()

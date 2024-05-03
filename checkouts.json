@@ -5,26 +5,26 @@
             "user_id": "1"
         },
         "book": {
-            "title": "the hary tale",
+            "title": "geethanjali",
             "author": "tagore",
-            "isbn": "123",
+            "isbn": "1",
             "available": true
         },
-        "checkout_date": "2024-05-03T16:26:14.623124",
-        "checkin_date": "2024-05-03T16:27:01.552255"
+        "checkout_date": "2024-05-03T18:42:07.167844",
+        "checkin_date": "2024-05-03T18:42:30.819107"
     },
     {
         "user": {
-            "name": "kumar",
-            "user_id": "1"
+            "name": "varsha",
+            "user_id": "2"
         },
         "book": {
             "title": "the fire wings",
             "author": "kalam",
-            "isbn": "456",
+            "isbn": "2",
             "available": true
         },
-        "checkout_date": "2024-05-03T16:26:34.544624",
-        "checkin_date": "2024-05-03T16:27:40.742184"
+        "checkout_date": "2024-05-03T18:42:19.022840",
+        "checkin_date": "2024-05-03T18:42:48.392565"
     }
 ]

@@ -30,11 +30,14 @@ class BookManager:
 
         Returns:
         None
+
+        Raises:
+        ValueError: If the ISBN number of the new book already exists in the list of books.
         """
 
         existing_book = self.get_book_by_isbn(book.isbn)
         if existing_book:
-            return print("The ISBN number already exists, Try with different number")
+            raise ValueError("The ISBN number already exists, Try with different number")
         else:
             self.books.append(book)
             self.storage.save_books(self.books)
@@ -62,6 +65,8 @@ class BookManager:
             if author:
                 book.author = author
             self.storage.save_books(self.books)
+        else:
+            raise ValueError("The book with the given ISBN does not exist.")
 
     def delete_book(self, isbn):
         """
@@ -71,7 +76,12 @@ class BookManager:
         isbn (str): The ISBN number of the book to be deleted.
 
         Returns:
-        None 
+        None
+
+        Raises:
+        ValueError: If the book with the given ISBN does not exist.
+
+        This method removes a book from the list of books if it exists. It takes an ISBN number as an argument and searches for the corresponding book in the list of books. If the book is found, it is removed from the list and the updated list is saved to the storage. If the book is not found, a ValueError is raised.
         """
 
         book = self.get_book_by_isbn(isbn)
@@ -80,7 +90,7 @@ class BookManager:
             self.storage.save_books(self.books)
             return print("Book deleted successfully")
         else:
-            return print("To delete the book, add the book first")
+            raise ValueError("To delete the book, add the book first")
 
     def list_books(self):
 

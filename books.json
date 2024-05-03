@@ -1,20 +1,14 @@
 [
     {
-        "title": "the hary tale",
+        "title": "geethanjali",
         "author": "tagore",
-        "isbn": "123",
+        "isbn": "1",
         "available": true
     },
     {
         "title": "the fire wings",
         "author": "kalam",
-        "isbn": "456",
-        "available": true
-    },
-    {
-        "title": "geethanjali",
-        "author": "kalam",
-        "isbn": "789",
+        "isbn": "2",
         "available": true
     }
 ]
