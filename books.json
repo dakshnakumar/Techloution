@@ -1,0 +1,20 @@
+[
+    {
+        "title": "the hary tale",
+        "author": "tagore",
+        "isbn": "123",
+        "available": true
+    },
+    {
+        "title": "the fire wings",
+        "author": "kalam",
+        "isbn": "456",
+        "available": true
+    },
+    {
+        "title": "geethanjali",
+        "author": "kalam",
+        "isbn": "789",
+        "available": true
+    }
+]
