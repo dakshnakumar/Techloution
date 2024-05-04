@@ -113,10 +113,6 @@ The modular design of the application, with clear separation of concerns, makes 
 
 * **Adding New Item Types**: The application can be extended to manage other types of items (e.g., magazines, DVDs) by creating new classes that inherit from a base class and implementing the necessary functionality in the respective manager classes.
 
-# Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
 
 
 
